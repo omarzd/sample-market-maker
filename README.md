@@ -30,7 +30,7 @@ It is free to use and modify for your own strategies. It provides the following:
 3. Create a marketmaker project: run `marketmaker setup`
     * This will create `settings.py` and `market_maker/` in the working directory.
     * Modify `settings.py` to tune parameters.
-4. Edit settings.py to add your [BitMEX API Key and Secret](https://testnet.bitmex.com/app/apiKeys) and change bot parameters.
+4. Edit `_settings_base.py` to add your [BitMEX API Key and Secret](https://testnet.bitmex.com/app/apiKeys) and change bot parameters.
     * Note that user/password authentication is not supported.
     * Run with `DRY_RUN=True` to test cost and spread.
 5. Run it: `marketmaker [symbol]`
